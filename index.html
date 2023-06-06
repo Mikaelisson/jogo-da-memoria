@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Jogo da Memória</title>
-  </head>
-  <body>
-
+</head>
+<body>
 
     <div id="gameBoard">
-
-      <!-- <div id="uhdb36r37r" class="card" data-icon="bootstrap">
-        <div class="card_front">
-          <img src="./assets/img/bootstrap.png" />
-        </div>
-
-        <div class="card_back">&lt;/&gt;</div>
-      </div> -->
+        
+        <!--
+        <div class="card" data-icon="bootstrap">
+            <div class="card_front">
+                <img class="icon" src="./assets/img/bootstrap.png">
+            </div>
+            <div class="card_back">
+                &lt/&gt
+            </div>
+        </div> -->
 
     </div>
 
     <div id="gameOver">
-      <p>Parabéns, você completou o jogo!</p>
-      <button class="restart" onclick="restart()">Jogue Novamente</button>
-    </div>
+        <div>
+            Parabéns, você completou o jogo!
+        </div>
+        <button id="restart" onclick="restart()">Jogue novamente</button>
+    </div><!--gameOver-->
 
-    <script src="./scripts/script.js"> </script>
-  </body>
+    <script src="./scripts/game.js"></script>
+
+    <script src="./scripts/script.js"></script>
+    
+</body>
 </html>
